@@ -21,7 +21,10 @@ import talenttrackShuttleRun from '@/assets/talenttrack-shuttle-run.png';
 import talenttrackSitupOutdoor from '@/assets/talenttrack-situp-outdoor.png';
 import talenttrackMobileUI from '@/assets/talenttrack-mobile-ui.png';
 import talenttrackPushupDemo from '@/assets/talenttrack-pushup-demo.png';
-import venmathiMock from '@/assets/venmathi-mock.jpg';
+import venmathiMock from '@/assets/venmathi-welcome.png';
+import venmathiIndicraftHome from '@/assets/venmathi-indicraft-home.png';
+import venmathiChatDemo from '@/assets/venmathi-chat-demo.png';
+import venmathiChatTanglish from '@/assets/venmathi-chat-tanglish.png';
 import indicraftMock from '@/assets/indicraft-mock.jpg';
 import aeroponicsMock from '@/assets/aeroponics-mock.jpg';
 
@@ -91,6 +94,12 @@ const projectDetails: Record<string, any> = {
   venmathi: {
     title: 'Venmathi — Tanglish LLM Assistant',
     image: venmathiMock,
+    gallery: [
+      { src: venmathiIndicraftHome, caption: 'Indicraft marketplace homepage where Venmathi is integrated', orientation: 'horizontal' },
+      { src: venmathiMock, caption: 'Venmathi welcome screen with personalized greeting', orientation: 'horizontal' },
+      { src: venmathiChatDemo, caption: 'Chat interface showing order status inquiry', orientation: 'horizontal' },
+      { src: venmathiChatTanglish, caption: 'Tanglish conversation demonstrating cultural understanding', orientation: 'horizontal' },
+    ],
     summary: 'Venmathi is a fine-tuned LLaMA model crafted to understand and respond in Tanglish (Tamil + English), used as the customer support assistant for Indicraft.',
     role: 'Full pipeline owner — dataset creation, fine-tuning, deployment, frontend integration',
     tech: ['LLaMA 3', 'Python', 'Ollama', 'React', 'Netlify', 'Colab'],

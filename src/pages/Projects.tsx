@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { ProjectCard } from '@/components/ProjectCard';
 import { Button } from '@/components/ui/button';
 import talenttrackMock from '@/assets/talenttrack-pushup-pose.png';
-import venmathiMock from '@/assets/venmathi-mock.jpg';
+import venmathiMock from '@/assets/venmathi-welcome.png';
 import indicraftMock from '@/assets/indicraft-mock.jpg';
 import aeroponicsMock from '@/assets/aeroponics-mock.jpg';
 
