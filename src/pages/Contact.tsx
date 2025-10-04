@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -11,6 +12,7 @@ import { Mail, Phone, Linkedin, Send } from 'lucide-react';
 
 export default function Contact() {
   const { toast } = useToast();
+  const [searchParams] = useSearchParams();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
@@ -20,6 +22,17 @@ export default function Contact() {
     message: '',
     consent: false,
   });
+
+  // Pre-fill message with subject from query params
+  useEffect(() => {
+    const subject = searchParams.get('subject');
+    if (subject) {
+      setFormData(prev => ({
+        ...prev,
+        message: `Subject: ${subject}\n\n`,
+      }));
+    }
+  }, [searchParams]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
