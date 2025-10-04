@@ -6,7 +6,7 @@ import { ScrollReveal } from '@/components/ScrollReveal';
 import { ArrowRight, Download, Mail } from 'lucide-react';
 import profileProfessional from '@/assets/profile-professional.png';
 import talenttrackHero from '@/assets/talenttrack-pushup-pose.png';
-import venmathiMock from '@/assets/venmathi-mock.jpg';
+import venmathiMock from '@/assets/venmathi-indicraft-home.png';
 import indicraftMock from '@/assets/indicraft-mock.jpg';
 import aeroponicsMock from '@/assets/aeroponics-mock.jpg';
 

@@ -21,8 +21,8 @@ import talenttrackShuttleRun from '@/assets/talenttrack-shuttle-run.png';
 import talenttrackSitupOutdoor from '@/assets/talenttrack-situp-outdoor.png';
 import talenttrackMobileUI from '@/assets/talenttrack-mobile-ui.png';
 import talenttrackPushupDemo from '@/assets/talenttrack-pushup-demo.png';
-import venmathiMock from '@/assets/venmathi-welcome.png';
-import venmathiIndicraftHome from '@/assets/venmathi-indicraft-home.png';
+import venmathiMock from '@/assets/venmathi-indicraft-home.png';
+import venmathiWelcome from '@/assets/venmathi-welcome.png';
 import venmathiChatDemo from '@/assets/venmathi-chat-demo.png';
 import venmathiChatTanglish from '@/assets/venmathi-chat-tanglish.png';
 import indicraftMock from '@/assets/indicraft-mock.jpg';
@@ -95,8 +95,8 @@ const projectDetails: Record<string, any> = {
     title: 'Venmathi — Tanglish LLM Assistant',
     image: venmathiMock,
     gallery: [
-      { src: venmathiIndicraftHome, caption: 'Indicraft marketplace homepage where Venmathi is integrated', orientation: 'horizontal' },
-      { src: venmathiMock, caption: 'Venmathi welcome screen with personalized greeting', orientation: 'horizontal' },
+      { src: venmathiMock, caption: 'Indicraft marketplace homepage where Venmathi is integrated', orientation: 'horizontal' },
+      { src: venmathiWelcome, caption: 'Venmathi welcome screen with personalized greeting', orientation: 'horizontal' },
       { src: venmathiChatDemo, caption: 'Chat interface showing order status inquiry', orientation: 'horizontal' },
       { src: venmathiChatTanglish, caption: 'Tanglish conversation demonstrating cultural understanding', orientation: 'horizontal' },
     ],
