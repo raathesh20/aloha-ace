@@ -7,7 +7,7 @@ import { ArrowRight, Download, Mail } from 'lucide-react';
 import profileProfessional from '@/assets/profile-professional.png';
 import talenttrackHero from '@/assets/talenttrack-pushup-pose.png';
 import venmathiMock from '@/assets/venmathi-indicraft-home.png';
-import indicraftMock from '@/assets/indicraft-mock.jpg';
+import indicraftMock from '@/assets/indicraft-hero.png';
 import aeroponicsMock from '@/assets/aeroponics-mock.jpg';
 
 const featuredProjects = [

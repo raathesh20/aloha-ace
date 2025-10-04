@@ -3,7 +3,7 @@ import { ProjectCard } from '@/components/ProjectCard';
 import { Button } from '@/components/ui/button';
 import talenttrackMock from '@/assets/talenttrack-pushup-pose.png';
 import venmathiMock from '@/assets/venmathi-indicraft-home.png';
-import indicraftMock from '@/assets/indicraft-mock.jpg';
+import indicraftMock from '@/assets/indicraft-hero.png';
 import aeroponicsMock from '@/assets/aeroponics-mock.jpg';
 
 const projects = [

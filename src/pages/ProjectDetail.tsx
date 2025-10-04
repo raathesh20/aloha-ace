@@ -25,7 +25,15 @@ import venmathiMock from '@/assets/venmathi-indicraft-home.png';
 import venmathiWelcome from '@/assets/venmathi-welcome.png';
 import venmathiChatDemo from '@/assets/venmathi-chat-demo.png';
 import venmathiChatTanglish from '@/assets/venmathi-chat-tanglish.png';
-import indicraftMock from '@/assets/indicraft-mock.jpg';
+import indicraftMock from '@/assets/indicraft-hero.png';
+import indicraftCategories from '@/assets/indicraft-categories.png';
+import indicraftSpecialEdition from '@/assets/indicraft-special-edition.png';
+import indicraftFeaturedProducts from '@/assets/indicraft-featured-products.png';
+import indicraftDailyDeals from '@/assets/indicraft-daily-deals.png';
+import indicraftProductDetail from '@/assets/indicraft-product-detail.png';
+import indicraftAbout from '@/assets/indicraft-about.png';
+import indicraftDashboard from '@/assets/indicraft-dashboard.png';
+import indicraftProductsManagement from '@/assets/indicraft-products-management.png';
 import aeroponicsMock from '@/assets/aeroponics-mock.jpg';
 
 const projectDetails: Record<string, any> = {
@@ -121,6 +129,21 @@ const projectDetails: Record<string, any> = {
   indicraft: {
     title: 'Indicraft — From Local Hands to Global Homes',
     image: indicraftMock,
+    gallery: [
+      { src: indicraftMock, caption: 'Indicraft marketplace homepage with handmade plates collection', orientation: 'horizontal' },
+      { src: indicraftCategories, caption: 'Product categories including Bengal spices, terracotta pots, and Jaipur fabrics', orientation: 'horizontal' },
+      { src: indicraftSpecialEdition, caption: 'Special edition handcrafted rugs with limited time offers', orientation: 'horizontal' },
+      { src: indicraftFeaturedProducts, caption: 'Featured products showcase with traditional crafts', orientation: 'horizontal' },
+      { src: indicraftDailyDeals, caption: 'Deal of the day offers for handicrafts', orientation: 'horizontal' },
+      { src: indicraftProductDetail, caption: 'Product detail page with Thanjavur paper mache dolls', orientation: 'horizontal' },
+      { src: indicraftAbout, caption: 'About Indicraft page highlighting artisan partnerships', orientation: 'horizontal' },
+      { src: indicraftDashboard, caption: 'Artisan dashboard for managing sales and orders', orientation: 'horizontal' },
+      { src: indicraftProductsManagement, caption: 'Product management interface for artisans', orientation: 'horizontal' },
+    ],
+    videos: [
+      { youtubeId: 'FBFtEl4tW8o', title: 'Indicraft Platform Overview', thumbnail: indicraftFeaturedProducts },
+    ],
+    pdfUrl: '/documents/indicraft-presentation.pdf',
     summary: 'Indicraft is a digital marketplace that connects local Indian artisans with the global Indian diaspora, enabling authentic, high-quality handcrafted products to reach international homes.',
     role: 'Platform contributor — frontend components, recommendation prototype, Venmathi integration, artisan onboarding UX',
     tech: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'India Post API', 'LLaMA (Venmathi)'],
