@@ -168,7 +168,7 @@ export default function Home() {
       </section>
 
       {/* Featured Projects Section */}
-      <section className="py-12 sm:py-16 lg:py-20 bg-gradient-to-b from-transparent to-secondary/30">
+      <section className="py-12 sm:py-16 bg-gradient-to-b from-transparent to-secondary/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal animation="fade-up">
             <div className="text-center mb-8 sm:mb-12">

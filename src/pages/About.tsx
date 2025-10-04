@@ -33,7 +33,7 @@ export default function About() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl lg:text-6xl font-heading font-bold mb-6 animate-fade-in">
-              <span className="text-gradient">About — Who I am & how I work</span>
+              <span className="text-gradient">About</span>
             </h1>
             <p className="text-xl text-muted-foreground animate-slide-up">
               Building products, publishing research, and teaching the next generation

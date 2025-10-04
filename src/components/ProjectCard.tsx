@@ -26,11 +26,11 @@ export const ProjectCard = ({
 }: ProjectCardProps) => {
   return (
     <Card className="overflow-hidden group h-full flex flex-col">
-      <div className="relative h-40 sm:h-48 overflow-hidden bg-muted">
+      <div className="relative h-56 sm:h-64 overflow-hidden bg-muted">
         <img
           src={image}
           alt={title}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center"
         />
       </div>
       
